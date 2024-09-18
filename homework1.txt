@@ -1,0 +1,12 @@
+1. What is HTML? What does it do?
+2. What is CSS? What does it do?
+3. Access https://www.fordham.edu/. In your own words, describe how this webpage uses
+structure to convey meaning and navigation options to the user.
+4. What is an HTML element? Tag? Attribute?
+5. What are the parts of a CSS rule?
+6. Explain how CSS rules cascade.
+7. If you have a directory called project-1 that contains two subdirectories, html-files and
+images. In the html-files directory you have an HTML file called html-1.html that has an
+img element with a src attribute, write out the value of the src attribute to access an
+image file called pinecone.jpg in the images directory.
+8. What is the default behavior when submitting a HTML form?

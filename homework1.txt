@@ -1,12 +1,23 @@
-1. What is HTML? What does it do?
-2. What is CSS? What does it do?
-3. Access https://www.fordham.edu/. In your own words, describe how this webpage uses
-structure to convey meaning and navigation options to the user.
-4. What is an HTML element? Tag? Attribute?
-5. What are the parts of a CSS rule?
-6. Explain how CSS rules cascade.
-7. If you have a directory called project-1 that contains two subdirectories, html-files and
-images. In the html-files directory you have an HTML file called html-1.html that has an
-img element with a src attribute, write out the value of the src attribute to access an
-image file called pinecone.jpg in the images directory.
-8. What is the default behavior when submitting a HTML form?
+1. HTML (Hyper-text-markup-language) is a language used to structure webpages using elements such as p (paragraph), h1 (heading 1), img (images), etc. 
+
+2. CSS is a stylesheet language used to create the visual aspects of the HTML layout. For example: fonts, colors, sizes, etc. 
+
+3. The fordham website has a couple of noticable organizational pieces, such as the header which stays fixed on the page if you scroll up and down.
+    It has some of hte most important features such as the "login" and "About". When hovering over the different sections
+    of the header, a drop down menu appears with more information. Then, there is the main page which usually showcases
+    newsworthy fordham-related content and a link to access the article. The page continues down with different sections, such as more information
+    about the campus, a video, an events section, university news, and finally the footer. Sectioning it off in this way helps the user
+    navigate the page easily. 
+
+4. An HTML element comprises of a starting and ending tag which gives the browser information on how to interpret the document. An attribute provides 
+additional information about the element such as where to go if someone clicks on a link (<a href = ""></a>).
+
+5. CSS rules consist of selectors which selects which element you want to edit, and declarations which specifies what types of edits you wish
+to make to that specific element. 
+
+6. CSS rules cascade depending on specifity as well as order. The more specific the rule is or the more later placed the rule is, the higher the precedence over 
+earlier or very general ones. 
+
+7. ../images/pinecone.jpg
+
+8. The information submitted goes to the URL.

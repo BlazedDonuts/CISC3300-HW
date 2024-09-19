@@ -1,0 +1,101 @@
+body {
+    padding: 7px;
+    height: 100%;
+}
+
+.main-container {
+    height: 96vh;
+    width: 100%;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    border-bottom: rgb(155, 153, 153) 1px solid;
+}
+
+.information {
+    color: navy;
+    font-weight: bold;
+    text-align: center;
+}
+
+.information h2 {
+    margin-bottom: 2px;
+    margin-top: 0;
+    padding: 0;
+}
+
+.address,
+.city,
+.website {
+    margin: 0;
+}
+
+.address,
+.city {
+    font-size: 82%;
+}
+
+.website {
+    margin-bottom: 15px;
+}
+
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: rgb(155, 153, 153) 1px solid;
+}
+
+.column {
+    flex: 1;
+    padding-left: 20px;
+}
+
+
+li {
+    padding-bottom: 34px;
+    
+}
+
+.advertisement {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: navy;
+    border-bottom: rgb(155, 153, 153) 1px solid;;
+}
+
+h3 {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.first-ad {
+    font-size: 10px;
+    padding: 0px;
+    margin: 0;
+}
+
+.second-ad {
+    font-size: 10px;
+    padding: 0px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.comments p {
+    font-size: 13px;
+    margin: 0;
+    padding: 20px;
+    border-bottom: rgb(155, 153, 153) 1px solid;
+    color: navy;
+    padding-left: 0;
+}
+
+.footer p {
+    font-size: 13px;
+    color: navy;
+}

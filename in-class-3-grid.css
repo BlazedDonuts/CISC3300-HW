@@ -1,4 +1,5 @@
-html, body {
+/*so child elements don't collapse*/
+html, body {                
     height: 100%;
     margin: 0;
 }

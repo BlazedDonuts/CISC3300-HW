@@ -8,3 +8,46 @@ body {
     background-color: rgb(238, 250, 185);
 }
 
+.containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    background-color: rgb(240, 160, 160);
+}
+
+.box2 {
+    background-color: rgb(117, 230, 117);
+}
+
+.box3 {
+    background-color: rgb(152, 152, 241);
+}
+
+
+/*media queries section for diff. sized screns*/
+@media (max-width: 500px) {
+    .containers {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 500px) {
+    .containers {
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,52 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.right {
+    border: rgb(209, 46, 46) 1px solid;
+}
+
+.left {
+    border: rgb(38, 102, 221) 1px solid;
+}
+
+.majors-minors {
+    border: black 1px solid;
+}
+
+.links {
+    border: black 1px solid;
+}
+
+.button1 {
+
+}
+
+.navbar {
+    border: black 1px solid;
+}
+
+.title {
+    border: black 1px solid;
+}
+
+.info {
+    border: black 1px solid;
+}
+
+.sub {
+    border: black 1px solid;
+}
+
+.content {
+    border: black 1px solid;
+}

@@ -1,0 +1,8 @@
+Both flex box and CSS grid are ways to create the 
+layout of a web page. Aspects such as spacing, alignment,
+containing, filling, wrapping are possible thanks to both. 
+The differences are also many: flexbox is one dimensional while CSS
+grid is two-dimensional. So this menas that the best use for
+flex-box would be nav bars or other small groups of items 
+that can go in a single row or column. Css grid can help with more
+complex web-page layouts/designs that involve both rows and columns. 

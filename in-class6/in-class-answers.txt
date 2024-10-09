@@ -1,6 +1,6 @@
-1. AJAZ
+1. AJAX
 2. HTTP
-3. RESY
+3. REST
 4. JSON
 5. communicate
 6. hoisting

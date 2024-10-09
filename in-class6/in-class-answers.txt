@@ -1,0 +1,7 @@
+1. AJAZ
+2. HTTP
+3. RESY
+4. JSON
+5. communicate
+6. hoisting
+7. lexical

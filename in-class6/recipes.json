@@ -1,0 +1,19 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "title": "Garlic Chicken",
+            "description": "A classic and simple chicken dish made with spicy, garlic sauce."
+        },
+        {
+            "id": 2,
+            "title:": "Korean BBQ with noodles",
+            "description": "A modern twist to a beloeved chicken noodle dish from Korea"
+        },
+        {
+            "id": 3,
+            "title": "Chicken Tikka Masala",
+            "description": "A traditional spicy Indian chicken dish with a creamy and smokey saurce."
+        }
+    ]
+}

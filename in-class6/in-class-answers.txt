@@ -4,4 +4,4 @@
 4. JSON
 5. communicate
 6. hoisting
-7. lexical
+7. outer-scope

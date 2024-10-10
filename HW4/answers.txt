@@ -1,0 +1,26 @@
+1. DOM is an acryonym for the document object model which represents
+the structure of a webpage. It helps developers access and
+change elements using JS. The Dom tree is a representation of 
+of a hierarchy of the document structure where each element is accessible 
+and can be modified.
+
+2. XSS attack, or cross site scripting, is a security vulnerability
+which allows hackers to inject malicious scripts into webpages. These scripts,
+once executed when the user is using them, can steal cookies or other personal 
+information. Ways to stay safe include using proper headers, validating user inputs,
+and encoding outputs.
+
+3. An event is an action or something that triggers a series of instructions. For ex:
+clickin a button is an event which triggers the behavior of clicking that specific
+button. 
+
+4. A DOM event listener is a function that waits for a specific event to occur on a DOM
+element like a click. When the event occurs, the listener executes
+a callback functin. The addEventListener metho contains 2 parameters. These include
+the event type (clock, mouseover) and hte callback function, which is a function that runs
+when the event occurs. It can also take more parameters.
+
+5. JQuery is a JS library that simplifieshow you interact iwth HTML elements on a webpage
+and perform tasks like animations. It is good to use because it makes coding more efficient and
+simpler, saving time. JQuery allows you to write less code. To use JQuery, you need to include it
+by adding a <script> tag in the HTML with source of the JQuery cdn link.

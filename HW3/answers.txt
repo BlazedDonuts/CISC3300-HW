@@ -1,0 +1,16 @@
+1. It is a scripting language used alongside HTML and CSS 
+used to make webpages interactive. It is an interpreted language
+which means that the code is executed line by line, as opposed to
+compiled language where the code is converted into machine code
+before execution. 
+2. Statistically typed languages enforce variable types at compile time whereas
+dynamically tpyed laguages determine types at run time. Strongly tpyed languages
+enforce strict type rules and prevent automatical type conversion
+wheras weakly typed languages don't and allow them.
+3. var is functin-scoped and allows re-declaration. Let is block scoped and does not
+allow re-declaration. Const is block scoped and can't be re-assigned after intialization.
+4. Anonymous functions have no name. Higher-order functions take other functions as 
+arguments or return them. Callback functions are passed as arguments to functions. First-class
+functions can be passed, returned, or assigned to other variables.
+5. Objects in JS are like containers that hold different properties and methods, usually modeling
+some sort of real life object.

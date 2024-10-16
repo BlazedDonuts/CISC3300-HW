@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+</head>
+<body>
+    <div class = "currTemp">
+        <h1>Currently, the temperature in NYC (2m above ground) is:</h1>
+    </div>
+
+    <div class = "temperature"></div>
+
+
+
+
+    <script>
+        const apiUrl = 'https://api.open-meteo.com/v1/forecast?latitude=40.7128&longitude=-74.0060&current_weather=true';
+
+        async function getTemp () {
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                const tempCelsius = data.current_weather.temperature;
+
+                const tempFahrenheit = (tempCelsius*9/5) + 32;
+
+                document.querySelector('.temperature').innerText = 
+                    `Temperature: ${tempFahrenheit.toFixed(1)} F`;
+
+            } catch (error) {
+                document.querySelector('.temperature').innerText = 
+                "Failed to load temperature data. Try again";
+                console.error("Error fetching data", error);
+            }
+            }
+
+            getTemp();
+        
+    </script>
+    
+</body>
+</html>

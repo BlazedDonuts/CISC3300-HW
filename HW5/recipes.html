@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "recipes.css">
+    <title>Recipes</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+    <body>
+        <h1>Recipes:</h1>
+        <div id="recipe-list"></div>
+    
+        <form id="recipe-form">
+            <input type="text" id="recipe-title" placeholder="Recipe Title" required />
+            <input type="text" id="recipe-description" placeholder="Recipe Description" required />
+            <button type="submit">Add Recipe</button>
+        </form>
+
+<!--js-->
+<script>
+//load recipes
+$(document).ready(function() {
+    fetchRecipes();
+
+//get and display recipes
+
+        function fetchRecipes() {
+            $.get('http://localhost:3000/recipes', function(data) {
+                $('#recipe-list').empty(); // Clear previous recipes
+                data.recipes.forEach(function(recipe) {
+                    $('#recipe-list').append(`
+                        <div class="recipe">
+                            <h2>${recipe.title}</h2>
+                            <p>${recipe.description}</p>
+                        </div>
+                    `);
+                });
+            });
+        }
+
+//form submission
+$('#recipe-form').submit(function(event) {
+                event.preventDefault(); 
+                const newRecipe = {
+                    title: $('#recipe-title').val(),
+                    description: $('#recipe-description').val(),
+                };
+
+//send new data to server
+$.ajax({
+    url: 'http://localhost:3000/recipes',
+    type: 'POST',
+    contentType: 'application/json',
+    data: JSON.stringify(newRecipe),
+    success: function() {
+    $('#recipe-title').val(''); // Clear the input fields
+    $('#recipe-description').val('');
+        fetchRecipes(); // Refresh the recipe list
+        },
+        error: function() {
+            alert('Error adding recipe. Please try again.');
+            }
+            });
+    });
+});
+
+</script>
+
+</body>
+</html>

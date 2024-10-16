@@ -1,0 +1,28 @@
+1. HTTP stands for hypertext transfer protocol and it is a networking protocol
+that allows web browsers to communicate with web servers via data exchange. 
+Everytime someone tries to load a webpage on a browser (ex: www.google.com), an HTTP
+request is sent and a response is received. HTTP methods include: GET (which gets data
+from a server), POST (which sends new data to the server to be saved), PUT (updates
+existing data on the server), PATCH (partially updating), and DELETE (removing data
+from the server). 
+
+2. API stands for Application Programming Interface and it is a set of rules that allows
+different software components to communicate with each other. APIs allow websites and applications
+to share data without revealing their internal code. JSON stands for JavaScript Object
+Notation, and is a format for sharing data between different systems. 
+
+3. AJAX stands for asynchronous JavaAcript and XML, and it is a method used by web pages
+to communicate with servers in the background without reloading pages (like updating scores
+in games). Asynchronous means that the code doesn't block the running of all other 
+code and waiting for something to finish. So when AJAX is running, the other code works just 
+fine.
+
+
+4. REST stands for representational state transfer and is a design style for creating APIs. 
+Components are treated as "resources" like "post" or "users". Each resource is defined by a URI.
+Resources are basically objects that can be accessed via RESTful APIs. 
+
+5. Hoisting is the process where function declarations are moved to the top of their scope
+before execution which allows for usage of a function before declaring it. A closure is 
+what happens when a function remembers the variable from the outer scope even after the complete
+execution of hte outer function. 

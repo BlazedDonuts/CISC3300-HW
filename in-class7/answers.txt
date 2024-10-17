@@ -1,0 +1,15 @@
+1. .htaccess
+
+2. <?php
+
+3. $ sign
+
+4. arrays
+
+5. associative arrays
+
+6. " " double quotes
+
+7. include/require
+
+8. type

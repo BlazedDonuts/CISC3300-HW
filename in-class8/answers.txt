@@ -1,18 +1,18 @@
-1.
+1. blueprints
 
-2.
+2. visibility
 
-3.
+3. inheritance
 
-4.
+4. namspace
 
-5.
+5. superglobals
 
-6.
+6. functions
 
-7.
+7. header()
 
-8.
+8. MVC (Model-View-Controller)
 
-9.
+9. Libraries
 

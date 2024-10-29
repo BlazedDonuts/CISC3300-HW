@@ -1,0 +1,35 @@
+1. PHP is a scripting language designed for web development
+to run on the server and handle tasks like processing data, 
+interacting with databases, and generating content before sending
+it to to the client's browser. Server side languages execute on the 
+server which allows for safe handling and manipulation of data and 
+user authentication, etc.
+
+2. Some examples of how PHP and JV are similar includes their syntax
+which are very alike, dynamic typing which means variables can
+be assigned without specific data types, and their usage in web 
+development. Differences include the usage in terms of front and 
+backend -- JS helps in creating interactive web elements wheras PHP handles 
+functionalities on the server side. Their execution environment 
+is also different as PHP runs on the server and JS runs on the client 
+server (although it is possible to run JS on the server as well 
+with the right tools).
+
+3. PHP has many pros and cons. Pros include it's wide usage and consequently
+documentation and resources available for programmers. Many large 
+applications like WordPress and Facebook also uses PHP. It is not too difficult 
+to learn which makes it a good option for beginners. Since it is open-source 
+and versatile, it can be used by many in various platforms. 
+
+4. The keyword include makes sure that if the specified file is not found, 
+PHP will give a warning but continue executing. The reqiure keyword makes it so 
+that if the specified file is not found, a fatal error will be produced which 
+stops the execution completel.y If you tried to use a variable from a file that 
+hasn't been included yet, you will come across an undefined variable error since 
+PHP cannot access variables from files which have not loaded in.
+
+5. Echo outputs data that is easily readable for humans and is used for printing 
+strings or variables. It's an easy way to display text that does not reveal 
+any information on types or other datas. Var_dump on the other hand 
+displays detailed information about a variable which includes its data type, length, 
+etc. It is useful for debugging. 

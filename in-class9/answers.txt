@@ -1,0 +1,9 @@
+1. URI
+2. $_GET
+3. $_POST
+4. not appear
+5. markup language 
+6. integrity
+7. cookies
+8. sessions
+9. unexpected problems

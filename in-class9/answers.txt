@@ -6,4 +6,6 @@
 6. integrity
 7. cookies
 8. sessions
-9. unexpected problems
+9. errors are messages that the PHP interpreter creates when it has 
+a problem running code -- something is wrong. Exceptions happen when 
+code that would normally run is prevented from doing so -- intended to be caught. 

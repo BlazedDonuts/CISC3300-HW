@@ -2,7 +2,7 @@
 2. $_GET
 3. $_POST
 4. not 
-5. markup language 
+5. HTML language
 6. accuracy
 7. cookies
 8. sessions

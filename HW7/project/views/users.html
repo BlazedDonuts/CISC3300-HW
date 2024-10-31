@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users</title>
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+    }
+
+    .user {
+        border: 2px solid black;
+        padding: 10px;
+        margin: 10px 0;
+    }
+</style>
+</head>
+
+<body>
+    <h1>Users</h1>
+    <div id = "userList"></div>
+
+    <script>
+        //AJAX
+        fetch('/users')
+        .then(response => response.json())
+        .then(data => {
+            const userList = document.getElementById('userList');
+            data.forEach(user => {
+                const userDiv = document.createElementById('div');
+                userDiv.className = 'user';
+                userDiv.innerHTML = `${user.name} ${user.email}`;
+                userList.appendChild(userDiv);
+            });
+        })
+        .catch(error => console.error('Error', error));
+    </script>
+</body>
+</html>

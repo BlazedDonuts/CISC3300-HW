@@ -1,0 +1,29 @@
+1. A class is a blueprint for creating objects and it defines specific
+attributes and methods that every object will have. An object is an instance 
+of a class with it's own set of specific attributes and behaviors (so a class 
+can be cars, and an object of class cars can be "Honda: 2018, getSpeed()"). OOP 
+stands for Object Oriented Programming, which uses objects and classes for 
+efficiency and maintainability of programming. 
+
+2. An abstract class is a base class which can't be instantiated on its own. 
+It can include abstract methods which are declared and only implemented with subclasses.
+Abstract classes help crate a template for other classes to follow and include 
+many behaviors that can be shared among various subclasses. 
+
+3. Superglobals are built in global arrays in PHP that can be accessed from 
+any scope. Examples include $_Get which contains data sent to the script via the 
+HTTP GET request and $_Post which contains data sent to the script 
+via the HTTP POST.
+
+4. First you need to declare a namespace (namespace app\models) and then you need to
+use the namespace by including the "use" keyword (use app\models).
+
+5. MVC stands for model view controller which is a way to organize your code 
+in applications so that different parts of the application can work together without 
+getting mixed up. It helps keep the interface and files separate and more manangable. 
+The parts include the Model which is the data manager and handles all information 
+that the app needs (like user info). Then the view which is the user interface and it shows 
+the information from the model to the user in a presentable way. It also collects
+inputs and sends it to the controller. The controller is the middleman between the model 
+and the view -- it takes input and decides what to do with it.
+

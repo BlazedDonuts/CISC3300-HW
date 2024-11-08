@@ -1,0 +1,24 @@
+1. $url = "www.example.com?name=Paromita&age=20";
+
+2. an escape character, like a backslash for example, 
+when added will prevent specific characters in a string 
+being interpreted in unintended ways. Doing \" will escape a double 
+quote inside a string. 
+
+3. 200 - ok, the request was successfull
+400 - bad, the server couldn't understand the request 
+401 - needs authentication to access
+403 - request is understood but refused due to permission 
+404 - requested material was not found on server500 - generic server error problem on 
+server side
+
+4. We need to validate data to make sure it's accurate and safe, which will 
+prevent malicious input like XSS attacks and putting in incorrect infor which will lead 
+to manual errors. It also increases security and reliability.
+
+5. Sessions allow data to be stored on the server and be associated with a specific user 
+with a unique session Id. This Id is sent to the user's browser as a cookie which enables 
+interactions like keeping users logged in even after exiting. Cookies are small
+pieces of data stored on the client's browser which allows for faster retrieval of info everytime
+client makes a request, stores preferences od user, and tracks site activity. 
+

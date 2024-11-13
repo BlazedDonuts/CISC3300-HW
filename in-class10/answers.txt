@@ -1,0 +1,10 @@
+1. PDO
+2. DSN
+3. .env
+4. Ignore
+5. statement
+6. fetch
+7. fetchAll
+8. prepares statement
+9. colon
+10. sql injection

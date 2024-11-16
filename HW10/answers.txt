@@ -1,0 +1,19 @@
+1. SQL is a language that is used to interact with databases that allows these 
+tasks: create, read, update, delete. MySQL is a relational database management system 
+that uses SQL to manage databases. Relationship databases are organized in tables with rows 
+and columns where relationships are established using keys. 
+
+2. Normalization is the method of organizing a database to reduce repetitiveness and 
+dependency by dividing tables into smaller tables and creating relationships between 
+them.
+
+3. Primary keys are unique identifiers for each row in a table. Foreign keys are 
+keys used in one table that originate from another table.
+
+4. The three types of relationships are one to one (a single row in one table is linked to one row in 
+another table), one to many (a single row in one table is linked to multiple rows in another table), and many 
+to many (many rows in one table are linked to many rows in another table.)
+
+5. Left join returns all the rows from the left table and matching rows from the right table. If 
+there is no match, then null values are included for the right table. Inner join is when only 
+rows where there is a match between tables is returned.

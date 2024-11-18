@@ -1,0 +1,21 @@
+1. PDOs in PHP is a tool that allows communication between databases
+and your PHP applications in a secure way. It works with many types 
+of databases like MySql and PostgreSql and helps prevent mistakes like 
+SQL injections by using prepared statements. DSN is like the address 
+and instructions for connecting to a database and tells PHP were the
+database is, and how to cornnect to it.
+
+2. .env files are files that store environment variables like database 
+credentials, API keys, and other sensitive information. It helps to keep
+application code and configuration settings separate. .gitignore files give 
+instructions to GIT to ignore certain files like the .env in order to 
+prevent upload to github or other public places. 
+
+3. no, never.
+
+4. SQL injection is a type of attack where malicious SQL is inserted into a 
+query to manipulate unauthorized data in a database.
+
+5. Prepared statements are a feature of PDOs that allows you to use SQL 
+queries securely by separating the query structure from the data. This helps in 
+preventing SQL injections by using safe methods 
